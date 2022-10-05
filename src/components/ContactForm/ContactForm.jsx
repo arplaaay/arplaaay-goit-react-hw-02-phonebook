@@ -18,7 +18,6 @@ export class ContactForm extends Component {
     e.preventDefault();
 
     this.props.addContact(this.state);
-
     this.resetForm();
   };
 
